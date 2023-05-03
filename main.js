@@ -61,7 +61,7 @@ function dateDiff(d){
 function renderEvents(){
     const eventsHTML = events.map(event => {
         return `
-            <div class="event>
+            <div class="event">
                 <div class="days">
                     <span class="days-number">${dateDiff(event.date)}</span>
                     <span class="days-text">días</span>

@@ -32,7 +32,7 @@ input[type="submit"] {
     border-radius: 5px;
 }
 
-#tasksContainer {
+#eventsContainer {
     background-color: white;
     border-radius: 5px;
     padding: 10px;
@@ -41,33 +41,33 @@ input[type="submit"] {
     display: flex;
     flex-direction: column;
     gap: 5px;
-  }
-  
-  .task {
+}
+
+.event {
     border: solid 1px #ccc;
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .task .days {
+}
+
+.event .days {
     text-align: center;
     width: 100px;
-  }
-  .task .days .days-number {
+}
+.event .days .days-number {
     font-size: 30px;
     font-weight: bold;
     display: block;
-  }
-  .task .event-name {
+}
+.event .event-name {
     padding: 10px;
     width: 200px;
-  }
-  .task .event-date {
+}
+.event .event-date {
     padding: 10px;
     width: 100px;
-  }
-  .task .actions {
+}
+.event .actions {
     padding: 10px;
-  }
+}
